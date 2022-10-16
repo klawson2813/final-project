@@ -1,6 +1,7 @@
 body {
     background-image: url("../img/alaskan\ waterfall.jpg"); 
     height: 100%;
+    width: 100%;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +11,8 @@ h1 {
     font-size: 60px;
     color: white;
     text-align: center;
+    text-decoration: underline;
+    text-shadow: #111 2px 2px 2px;
 }
 
 ul {
@@ -24,9 +27,25 @@ li {
     float: left;
 }
 
-li a {
+li a{
     display: block;
-    color: white;
     text-decoration: none;
     padding: 20px;
+    color: white;
 }
+
+li a:hover {
+    background-color: rgb(58, 75, 58);
+}
+
+li a:visited {
+    color: olivedrab
+}
+
+li a:active {
+    color: red;
+}
+
+
+
+
