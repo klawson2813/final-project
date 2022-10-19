@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+/*font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;*/
+
 body {
-    background-image: url("../img/alaskan\ waterfall.jpg"); 
-    height: 100%;
+    background-color: grey;
+}
+
+.header {
+    background-image: url("../img/alaskan waterfall.jpg");
+    height: 20rem;
     width: 100%;
     background-position: center; 
     background-repeat: no-repeat;
@@ -20,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #182747;
 }
 
 li {
@@ -35,7 +43,7 @@ li a{
 }
 
 li a:hover {
-    background-color: rgb(58, 75, 58);
+    background-color: rgb(100, 126, 104);
 }
 
 li a:visited {
