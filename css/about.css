@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+.header {
+    background-image: url("../img/alaskan waterfall.jpg");
+    height: 25rem;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: #111 2px 2px 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #182747;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+li a:hover {
+    background-color: rgb(100, 126, 104);
+}
+
+li a:visited {
+    color: olivedrab
+}
+
+li a:active {
+    color: red;
+}
