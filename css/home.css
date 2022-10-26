@@ -2,8 +2,9 @@
     font-family: 'Noto Serif', serif;
     font-family: 'Roboto', sans-serif;*/
    
- body {
+body {
     background-color: grey;
+    margin: 0;
 }
 
 .header {
@@ -35,7 +36,7 @@ li {
     float: left;
 }
 
-li a{
+li a {
     display: block;
     text-decoration: none;
     padding: 20px;
@@ -62,6 +63,10 @@ h2 {
     text-shadow: #111 2px 2px 2px;
 }
 
+h2, p {
+    font-size: 26px;
+}
+
 .bob {
     display: block;
     margin-left: auto;
@@ -79,6 +84,7 @@ h3 {
     text-decoration: underline;
     text-shadow: #111 2px 2px 2px;
 }
+
 .paintings {
     display: flex;
     flex-direction: row;
@@ -95,7 +101,15 @@ h3 {
     box-shadow: 2px 3px 4px;
 }
 
+.paintings img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
+.paintings p {
+    color: white;
+}
+    
 footer{
     background-color: #182747;
     width: 100%;
@@ -111,6 +125,6 @@ footer{
     align-items: center;
 }
 
-.icons {
+#icons {
     color: white;
 }
