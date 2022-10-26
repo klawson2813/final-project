@@ -110,7 +110,7 @@ h3 {
     color: white;
 }
     
-footer{
+footer {
     background-color: #182747;
     width: 100%;
     height: 100px;
@@ -125,6 +125,7 @@ footer{
     align-items: center;
 }
 
-#icons {
+.fa-brands {
     color: white;
+    margin: 5px;
 }
