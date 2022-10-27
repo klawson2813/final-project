@@ -1,5 +1,6 @@
 body {
     background-color: grey;
+    margin: 0;
 }
 
 .header {
@@ -48,4 +49,29 @@ li a:visited {
 
 li a:active {
     color: red;
+}
+
+.map {
+    box-shadow: 2px 2px 2px 2px #111;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #182747;
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: sticky;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    color: white;
+    margin: 5px;
 }

@@ -1,5 +1,6 @@
  body {
     background-color: grey;
+    margin: 0;
 }
 
 .header {
@@ -9,8 +10,6 @@
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0);
-    border-radius: 10px;
 }
 
 h1 {
@@ -27,7 +26,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #182747;
-    border-radius: 10px;
 }
 
 li {
@@ -56,7 +54,6 @@ li a:active {
 section {
     background-color: #182747;
     height: 20px;
-    border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0);
     margin-top: 40px;
     margin-bottom: 20px;
@@ -71,20 +68,18 @@ section h2 {
     text-shadow: #111 2px 2px 2px;
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid grey; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
   
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -93,17 +88,35 @@ input[type=text], select, textarea {
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+
+input[type=submit]:hover {
     background-color: #45a049;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
+.container {
     border-radius: 5px;
     background-color:rgb(100, 126, 104);
     padding: 20px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
+}
+
+footer {
+    background-color: #182747;
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: sticky;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    color: white;
+    margin: 5px;
+}
   
