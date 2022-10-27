@@ -5,4 +5,4 @@ function happyTrees() {
     bobSound.play();
 };
 
-bobRossImg.addEventListener("click", happyTrees());
+bobRossImg.addEventListener("click", happyTrees);
