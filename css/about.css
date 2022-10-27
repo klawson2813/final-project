@@ -50,8 +50,12 @@ li a:visited {
 li a:active {
     color: red;
 }
+h2, p {
+    font-size: 26px;
+ }
 
-.map {
+iframe {
+    width: 100%;
     box-shadow: 2px 2px 2px 2px #111;
     border-radius: 10px;
 }
