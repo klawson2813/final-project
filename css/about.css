@@ -50,8 +50,14 @@ li a:visited {
 li a:active {
     color: red;
 }
+h2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
 h2, p {
     font-size: 26px;
+    font-family: 'Notoserif', serif;
  }
 
 iframe {
